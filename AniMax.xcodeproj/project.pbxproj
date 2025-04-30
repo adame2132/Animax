@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1BB72B2CB46FBC00A985C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB72A2CB46FBC00A985C9 /* AppDelegate.swift */; };
+		4D1BB72D2CB46FBC00A985C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB72C2CB46FBC00A985C9 /* SceneDelegate.swift */; };
+		4D1BB7322CB46FBC00A985C9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4D1BB7312CB46FBC00A985C9 /* Base */; };
+		4D1BB7342CB46FC100A985C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1BB7332CB46FC100A985C9 /* Assets.xcassets */; };
+		4D1BB7372CB46FC100A985C9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4D1BB7362CB46FC100A985C9 /* Base */; };
+		4D1BB7422CB46FC200A985C9 /* AniMaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB7412CB46FC200A985C9 /* AniMaxTests.swift */; };
+		4D1BB74C2CB46FC200A985C9 /* AniMaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB74B2CB46FC200A985C9 /* AniMaxUITests.swift */; };
+		4D1BB74E2CB46FC200A985C9 /* AniMaxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB74D2CB46FC200A985C9 /* AniMaxUITestsLaunchTests.swift */; };
+		4D1BB75B2CB4744800A985C9 /* AniMaxHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB75A2CB4744800A985C9 /* AniMaxHomeViewController.swift */; };
+		4D1BB75D2CB4747000A985C9 /* AnimeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB75C2CB4747000A985C9 /* AnimeDetailViewController.swift */; };
+		4D1BB75F2CB4749B00A985C9 /* MyRankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB75E2CB4749B00A985C9 /* MyRankingViewController.swift */; };
+		4D1BB7612CB6F65400A985C9 /* RankCellPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB7602CB6F65400A985C9 /* RankCellPrototype.swift */; };
+		4D1BB7632CB70CC300A985C9 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB7622CB70CC300A985C9 /* Anime.swift */; };
+		4D1BB7652CB7114B00A985C9 /* AnimeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB7642CB7114B00A985C9 /* AnimeCollection.swift */; };
+		4D1BB7672CC48D7600A985C9 /* AnimeTableCellDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB7662CC48D7600A985C9 /* AnimeTableCellDisplay.swift */; };
+		4D1BB7692CC48DD000A985C9 /* AnimeCollectionCellDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB7682CC48DD000A985C9 /* AnimeCollectionCellDisplay.swift */; };
+		4D1BB76D2CC6203E00A985C9 /* WatchListCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB76C2CC6203E00A985C9 /* WatchListCollection.swift */; };
+		4D1BB76F2CC642C600A985C9 /* EpisodeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB76E2CC642C600A985C9 /* EpisodeCollectionCell.swift */; };
+		4D1BB7712CC9576800A985C9 /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB7702CC9576800A985C9 /* SectionData.swift */; };
+		4D1BB7732CC95E0700A985C9 /* SectionDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1BB7722CC95E0700A985C9 /* SectionDataCollection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1BB73E2CB46FC200A985C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1BB71F2CB46FBC00A985C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1BB7262CB46FBC00A985C9;
+			remoteInfo = AniMax;
+		};
+		4D1BB7482CB46FC200A985C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1BB71F2CB46FBC00A985C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1BB7262CB46FBC00A985C9;
+			remoteInfo = AniMax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D1BB7272CB46FBC00A985C9 /* AniMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1BB72A2CB46FBC00A985C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D1BB72C2CB46FBC00A985C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D1BB7312CB46FBC00A985C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D1BB7332CB46FC100A985C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D1BB7362CB46FC100A985C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D1BB7382CB46FC100A985C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1BB73D2CB46FC200A985C9 /* AniMaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniMaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1BB7412CB46FC200A985C9 /* AniMaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMaxTests.swift; sourceTree = "<group>"; };
+		4D1BB7472CB46FC200A985C9 /* AniMaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniMaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1BB74B2CB46FC200A985C9 /* AniMaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMaxUITests.swift; sourceTree = "<group>"; };
+		4D1BB74D2CB46FC200A985C9 /* AniMaxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMaxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D1BB75A2CB4744800A985C9 /* AniMaxHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMaxHomeViewController.swift; sourceTree = "<group>"; };
+		4D1BB75C2CB4747000A985C9 /* AnimeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailViewController.swift; sourceTree = "<group>"; };
+		4D1BB75E2CB4749B00A985C9 /* MyRankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRankingViewController.swift; sourceTree = "<group>"; };
+		4D1BB7602CB6F65400A985C9 /* RankCellPrototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCellPrototype.swift; sourceTree = "<group>"; };
+		4D1BB7622CB70CC300A985C9 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		4D1BB7642CB7114B00A985C9 /* AnimeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCollection.swift; sourceTree = "<group>"; };
+		4D1BB7662CC48D7600A985C9 /* AnimeTableCellDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeTableCellDisplay.swift; sourceTree = "<group>"; };
+		4D1BB7682CC48DD000A985C9 /* AnimeCollectionCellDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCollectionCellDisplay.swift; sourceTree = "<group>"; };
+		4D1BB76C2CC6203E00A985C9 /* WatchListCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListCollection.swift; sourceTree = "<group>"; };
+		4D1BB76E2CC642C600A985C9 /* EpisodeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCollectionCell.swift; sourceTree = "<group>"; };
+		4D1BB7702CC9576800A985C9 /* SectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionData.swift; sourceTree = "<group>"; };
+		4D1BB7722CC95E0700A985C9 /* SectionDataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDataCollection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1BB7242CB46FBC00A985C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1BB73A2CB46FC200A985C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1BB7442CB46FC200A985C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1BB71E2CB46FBC00A985C9 = {
+			isa = PBXGroup;
+			children = (
+				4D1BB7292CB46FBC00A985C9 /* AniMax */,
+				4D1BB7402CB46FC200A985C9 /* AniMaxTests */,
+				4D1BB74A2CB46FC200A985C9 /* AniMaxUITests */,
+				4D1BB7282CB46FBC00A985C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D1BB7282CB46FBC00A985C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D1BB7272CB46FBC00A985C9 /* AniMax.app */,
+				4D1BB73D2CB46FC200A985C9 /* AniMaxTests.xctest */,
+				4D1BB7472CB46FC200A985C9 /* AniMaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D1BB7292CB46FBC00A985C9 /* AniMax */ = {
+			isa = PBXGroup;
+			children = (
+				4D1BB72A2CB46FBC00A985C9 /* AppDelegate.swift */,
+				4D1BB72C2CB46FBC00A985C9 /* SceneDelegate.swift */,
+				4D1BB7302CB46FBC00A985C9 /* Main.storyboard */,
+				4D1BB76E2CC642C600A985C9 /* EpisodeCollectionCell.swift */,
+				4D1BB7662CC48D7600A985C9 /* AnimeTableCellDisplay.swift */,
+				4D1BB7682CC48DD000A985C9 /* AnimeCollectionCellDisplay.swift */,
+				4D1BB7622CB70CC300A985C9 /* Anime.swift */,
+				4D1BB7702CC9576800A985C9 /* SectionData.swift */,
+				4D1BB7722CC95E0700A985C9 /* SectionDataCollection.swift */,
+				4D1BB7642CB7114B00A985C9 /* AnimeCollection.swift */,
+				4D1BB76C2CC6203E00A985C9 /* WatchListCollection.swift */,
+				4D1BB7332CB46FC100A985C9 /* Assets.xcassets */,
+				4D1BB75C2CB4747000A985C9 /* AnimeDetailViewController.swift */,
+				4D1BB75A2CB4744800A985C9 /* AniMaxHomeViewController.swift */,
+				4D1BB75E2CB4749B00A985C9 /* MyRankingViewController.swift */,
+				4D1BB7602CB6F65400A985C9 /* RankCellPrototype.swift */,
+				4D1BB7352CB46FC100A985C9 /* LaunchScreen.storyboard */,
+				4D1BB7382CB46FC100A985C9 /* Info.plist */,
+			);
+			path = AniMax;
+			sourceTree = "<group>";
+		};
+		4D1BB7402CB46FC200A985C9 /* AniMaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D1BB7412CB46FC200A985C9 /* AniMaxTests.swift */,
+			);
+			path = AniMaxTests;
+			sourceTree = "<group>";
+		};
+		4D1BB74A2CB46FC200A985C9 /* AniMaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D1BB74B2CB46FC200A985C9 /* AniMaxUITests.swift */,
+				4D1BB74D2CB46FC200A985C9 /* AniMaxUITestsLaunchTests.swift */,
+			);
+			path = AniMaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D1BB7262CB46FBC00A985C9 /* AniMax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1BB7512CB46FC200A985C9 /* Build configuration list for PBXNativeTarget "AniMax" */;
+			buildPhases = (
+				4D1BB7232CB46FBC00A985C9 /* Sources */,
+				4D1BB7242CB46FBC00A985C9 /* Frameworks */,
+				4D1BB7252CB46FBC00A985C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AniMax;
+			productName = AniMax;
+			productReference = 4D1BB7272CB46FBC00A985C9 /* AniMax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D1BB73C2CB46FC200A985C9 /* AniMaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1BB7542CB46FC200A985C9 /* Build configuration list for PBXNativeTarget "AniMaxTests" */;
+			buildPhases = (
+				4D1BB7392CB46FC200A985C9 /* Sources */,
+				4D1BB73A2CB46FC200A985C9 /* Frameworks */,
+				4D1BB73B2CB46FC200A985C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1BB73F2CB46FC200A985C9 /* PBXTargetDependency */,
+			);
+			name = AniMaxTests;
+			productName = AniMaxTests;
+			productReference = 4D1BB73D2CB46FC200A985C9 /* AniMaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D1BB7462CB46FC200A985C9 /* AniMaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1BB7572CB46FC200A985C9 /* Build configuration list for PBXNativeTarget "AniMaxUITests" */;
+			buildPhases = (
+				4D1BB7432CB46FC200A985C9 /* Sources */,
+				4D1BB7442CB46FC200A985C9 /* Frameworks */,
+				4D1BB7452CB46FC200A985C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1BB7492CB46FC200A985C9 /* PBXTargetDependency */,
+			);
+			name = AniMaxUITests;
+			productName = AniMaxUITests;
+			productReference = 4D1BB7472CB46FC200A985C9 /* AniMaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D1BB71F2CB46FBC00A985C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4D1BB7262CB46FBC00A985C9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4D1BB73C2CB46FC200A985C9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4D1BB7262CB46FBC00A985C9;
+					};
+					4D1BB7462CB46FC200A985C9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4D1BB7262CB46FBC00A985C9;
+					};
+				};
+			};
+			buildConfigurationList = 4D1BB7222CB46FBC00A985C9 /* Build configuration list for PBXProject "AniMax" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D1BB71E2CB46FBC00A985C9;
+			productRefGroup = 4D1BB7282CB46FBC00A985C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D1BB7262CB46FBC00A985C9 /* AniMax */,
+				4D1BB73C2CB46FC200A985C9 /* AniMaxTests */,
+				4D1BB7462CB46FC200A985C9 /* AniMaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D1BB7252CB46FBC00A985C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1BB7342CB46FC100A985C9 /* Assets.xcassets in Resources */,
+				4D1BB7372CB46FC100A985C9 /* Base in Resources */,
+				4D1BB7322CB46FBC00A985C9 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1BB73B2CB46FC200A985C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1BB7452CB46FC200A985C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D1BB7232CB46FBC00A985C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1BB72B2CB46FBC00A985C9 /* AppDelegate.swift in Sources */,
+				4D1BB7672CC48D7600A985C9 /* AnimeTableCellDisplay.swift in Sources */,
+				4D1BB75F2CB4749B00A985C9 /* MyRankingViewController.swift in Sources */,
+				4D1BB7612CB6F65400A985C9 /* RankCellPrototype.swift in Sources */,
+				4D1BB7632CB70CC300A985C9 /* Anime.swift in Sources */,
+				4D1BB75B2CB4744800A985C9 /* AniMaxHomeViewController.swift in Sources */,
+				4D1BB75D2CB4747000A985C9 /* AnimeDetailViewController.swift in Sources */,
+				4D1BB7732CC95E0700A985C9 /* SectionDataCollection.swift in Sources */,
+				4D1BB76F2CC642C600A985C9 /* EpisodeCollectionCell.swift in Sources */,
+				4D1BB7652CB7114B00A985C9 /* AnimeCollection.swift in Sources */,
+				4D1BB7692CC48DD000A985C9 /* AnimeCollectionCellDisplay.swift in Sources */,
+				4D1BB72D2CB46FBC00A985C9 /* SceneDelegate.swift in Sources */,
+				4D1BB76D2CC6203E00A985C9 /* WatchListCollection.swift in Sources */,
+				4D1BB7712CC9576800A985C9 /* SectionData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1BB7392CB46FC200A985C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1BB7422CB46FC200A985C9 /* AniMaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1BB7432CB46FC200A985C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1BB74E2CB46FC200A985C9 /* AniMaxUITestsLaunchTests.swift in Sources */,
+				4D1BB74C2CB46FC200A985C9 /* AniMaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D1BB73F2CB46FC200A985C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1BB7262CB46FBC00A985C9 /* AniMax */;
+			targetProxy = 4D1BB73E2CB46FC200A985C9 /* PBXContainerItemProxy */;
+		};
+		4D1BB7492CB46FC200A985C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1BB7262CB46FBC00A985C9 /* AniMax */;
+			targetProxy = 4D1BB7482CB46FC200A985C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D1BB7302CB46FBC00A985C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1BB7312CB46FBC00A985C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D1BB7352CB46FC100A985C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1BB7362CB46FC100A985C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D1BB74F2CB46FC200A985C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D1BB7502CB46FC200A985C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D1BB7522CB46FC200A985C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AniMax/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AniMax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D1BB7532CB46FC200A985C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AniMax/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AniMax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D1BB7552CB46FC200A985C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AniMaxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AniMax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AniMax";
+			};
+			name = Debug;
+		};
+		4D1BB7562CB46FC200A985C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AniMaxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AniMax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AniMax";
+			};
+			name = Release;
+		};
+		4D1BB7582CB46FC200A985C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AniMaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AniMax;
+			};
+			name = Debug;
+		};
+		4D1BB7592CB46FC200A985C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.AniMaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AniMax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D1BB7222CB46FBC00A985C9 /* Build configuration list for PBXProject "AniMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1BB74F2CB46FC200A985C9 /* Debug */,
+				4D1BB7502CB46FC200A985C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1BB7512CB46FC200A985C9 /* Build configuration list for PBXNativeTarget "AniMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1BB7522CB46FC200A985C9 /* Debug */,
+				4D1BB7532CB46FC200A985C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1BB7542CB46FC200A985C9 /* Build configuration list for PBXNativeTarget "AniMaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1BB7552CB46FC200A985C9 /* Debug */,
+				4D1BB7562CB46FC200A985C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1BB7572CB46FC200A985C9 /* Build configuration list for PBXNativeTarget "AniMaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1BB7582CB46FC200A985C9 /* Debug */,
+				4D1BB7592CB46FC200A985C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D1BB71F2CB46FBC00A985C9 /* Project object */;
+}
